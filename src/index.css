@@ -1,0 +1,49 @@
+:root {
+  --text: #94a3b8;
+  --text-h: #e2e8f0;
+  --text-muted: #64748b;
+  --bg: #0b1220;
+  --border: #243044;
+  --accent: #38bdf8;
+  --accent-dark: #0ea5e9;
+  --accent-glow: rgba(56, 189, 248, 0.2);
+  --user-bg: rgba(14, 165, 233, 0.18);
+  --user-border: rgba(56, 189, 248, 0.45);
+  --model-bg: #152033;
+  --input-bg: #111827;
+  --sans: 'Segoe UI', system-ui, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 16px/1.5 var(--sans);
+  color: var(--text);
+  background:
+    radial-gradient(ellipse at top, rgba(14, 165, 233, 0.12), transparent 50%),
+    var(--bg);
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+}
+
+#root {
+  min-height: 100svh;
+  width: 100%;
+  margin: 0;
+  text-align: initial;
+}
+
+h1,
+h2,
+p {
+  font-family: var(--sans);
+}
